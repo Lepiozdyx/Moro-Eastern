@@ -2,32 +2,45 @@ import Foundation
 import UIKit
 
 public class WebManager {
-    static let meURL = "https://moroeasternsand.pro/update"
+    
+    static let initialURL = "https://moroeasternsand.pro/update"
     static let savedUrlKey = "savedUrl"
     static var provenUrl : URL?
     
-    static func decide(finalUrl: String) async -> String {
+    static func decide(finalUrl: String) async -> String
+    {
         print("testing URL: \(finalUrl)")
         let savedUrl = getSavedUrl()
-        if savedUrl == "" {
-            do {
-                if try await checkInitURL(url: URL(string: finalUrl)!) {
+        if savedUrl == ""
+        {
+            do
+            {
+                
+                if try await checkInitURL(url: URL(string: finalUrl)!)
+                {
                     await loadProvenURL(urlString: finalUrl)
                     trySetSavedUrl(URL(string: finalUrl)!)
                     return finalUrl
-                } else {
+                }
+                else
+                {
                     return ""
                 }
-            } catch {
+            }
+            catch
+            {
                 return ""
             }
-        } else {
+        }
+        else
+        {
             await loadProvenURL(urlString: savedUrl)
             return savedUrl
         }
     }
     
-    static func checkUrl(url: URL) async -> Bool {
+    static func checkUrl(url: URL) async -> Bool
+    {
         do {
             var request = URLRequest(url: url)
             request.setValue(getUAgent(forWebView: false), forHTTPHeaderField: "User-Agent")
@@ -43,7 +56,9 @@ public class WebManager {
             }
             
             return true
-        } catch {
+        }
+        catch
+        {
             return false
         }
     }
@@ -67,17 +82,20 @@ public class WebManager {
                 return false
             }
             
-            if await !checkUrl(url: finalURL) {
+            if await !checkUrl(url: finalURL)
+            {
                 return false
             }
             
             return true
+
         } catch {
             return false
         }
     }
     
-    static func getSavedUrl() -> String {
+    static func getSavedUrl() -> String
+    {
         let storage = UserDefaults.standard
         if let urlString = storage.string(forKey: savedUrlKey) {
                 if let url = URL(string: urlString) {
@@ -94,6 +112,7 @@ public class WebManager {
     }
     
     static func trySetSavedUrl(_ url: URL) {
+        
         guard !isInvalidURL(url) else {
             return
         }

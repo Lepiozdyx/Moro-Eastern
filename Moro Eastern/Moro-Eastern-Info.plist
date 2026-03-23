@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>UIAppFonts</key>
-    <array>
-        <string>SF-Pro-Display-Semibold.otf</string>
-    </array>
-    <key>NSCameraUsageDescription</key>
-    <string>We need camera access to add photos to your diary</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>We need photo library access to pick images for your diary</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-Pro-Display-Semibold.otf</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow access to the camera to take photos and videos to your diary.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow photo library access to pick images for your diary.</string>
 </dict>
 </plist>

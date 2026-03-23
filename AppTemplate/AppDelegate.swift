@@ -6,10 +6,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var application: UIApplication?
 
-    func application(
-        _ application: UIApplication,
-        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.application = application
         showLoadingScreen()
         initApp()
@@ -17,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func onGameStart() {
+    func onGameStart()
+    {
         let contentView = CustomHostingController(rootView: MainRootView())
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = contentView
@@ -43,7 +41,8 @@ class CustomHostingController<Content: View>: UIHostingController<Content> {
     }
 }
 
-class OrientationHelper {
+class OrientationHelper
+{
     public static var orientaionMask: UIInterfaceOrientationMask = .portrait
     public static var isAutoRotationEnabled: Bool = false
 }

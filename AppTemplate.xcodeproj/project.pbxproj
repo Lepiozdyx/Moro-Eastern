@@ -7,41 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */; };
 		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
-		FA7F7D3D2F686E6C006E7E3C /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D1C2F686E6C006E7E3C /* Purchase.swift */; };
-		FA7F7D3E2F686E6C006E7E3C /* AddMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D2E2F686E6C006E7E3C /* AddMarketView.swift */; };
-		FA7F7D3F2F686E6C006E7E3C /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D162F686E6C006E7E3C /* AppTab.swift */; };
-		FA7F7D402F686E6C006E7E3C /* AddDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D272F686E6C006E7E3C /* AddDishView.swift */; };
-		FA7F7D412F686E6C006E7E3C /* MarketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D302F686E6C006E7E3C /* MarketListView.swift */; };
-		FA7F7D422F686E6C006E7E3C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D152F686E6C006E7E3C /* AppState.swift */; };
-		FA7F7D432F686E6C006E7E3C /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D292F686E6C006E7E3C /* DishView.swift */; };
-		FA7F7D442F686E6C006E7E3C /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D282F686E6C006E7E3C /* DishDetailView.swift */; };
-		FA7F7D452F686E6C006E7E3C /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D212F686E6C006E7E3C /* BottomBarView.swift */; };
-		FA7F7D462F686E6C006E7E3C /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D102F686E6C006E7E3C /* TransparentBlurView.swift */; };
-		FA7F7D472F686E6C006E7E3C /* DropdownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D2B2F686E6C006E7E3C /* DropdownPickerView.swift */; };
-		FA7F7D482F686E6C006E7E3C /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D382F686E6C006E7E3C /* MainRootView.swift */; };
-		FA7F7D492F686E6C006E7E3C /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D172F686E6C006E7E3C /* Dish.swift */; };
-		FA7F7D4A2F686E6C006E7E3C /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D1A2F686E6C006E7E3C /* Market.swift */; };
-		FA7F7D4B2F686E6C006E7E3C /* DishCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D252F686E6C006E7E3C /* DishCardView.swift */; };
-		FA7F7D4C2F686E6C006E7E3C /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D0E2F686E6C006E7E3C /* FontExtension.swift */; };
-		FA7F7D4D2F686E6C006E7E3C /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D112F686E6C006E7E3C /* ViewExtension.swift */; };
-		FA7F7D4E2F686E6C006E7E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D372F686E6C006E7E3C /* ContentView.swift */; };
-		FA7F7D4F2F686E6C006E7E3C /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D0D2F686E6C006E7E3C /* BackgroundModifier.swift */; };
-		FA7F7D502F686E6C006E7E3C /* CameraImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D232F686E6C006E7E3C /* CameraImagePicker.swift */; };
-		FA7F7D512F686E6C006E7E3C /* DishStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D182F686E6C006E7E3C /* DishStore.swift */; };
-		FA7F7D522F686E6C006E7E3C /* MarketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D2F2F686E6C006E7E3C /* MarketDetailView.swift */; };
-		FA7F7D532F686E6C006E7E3C /* SizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D0F2F686E6C006E7E3C /* SizeExtension.swift */; };
-		FA7F7D542F686E6C006E7E3C /* MarketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D2C2F686E6C006E7E3C /* MarketCardView.swift */; };
-		FA7F7D552F686E6C006E7E3C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D332F686E6C006E7E3C /* TimerView.swift */; };
-		FA7F7D562F686E6C006E7E3C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D192F686E6C006E7E3C /* Ingredient.swift */; };
-		FA7F7D572F686E6C006E7E3C /* MarketStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D1B2F686E6C006E7E3C /* MarketStore.swift */; };
-		FA7F7D582F686E6C006E7E3C /* MeditationAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7D322F686E6C006E7E3C /* MeditationAudio.swift */; };
-		FA7F7D592F686E6C006E7E3C /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D132F686E6C006E7E3C /* SF-Pro-Display-Semibold.otf */; };
-		FA7F7D5A2F686E6C006E7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D362F686E6C006E7E3C /* Assets.xcassets */; };
-		FA7F7D5B2F686E6C006E7E3C /* desertMP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D1F2F686E6C006E7E3C /* desertMP.mp3 */; };
-		FA7F7D5C2F686E6C006E7E3C /* camelMP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D1E2F686E6C006E7E3C /* camelMP.mp3 */; };
-		FA7F7D5D2F686E6C006E7E3C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D3C2F686E6C006E7E3C /* PrivacyInfo.xcprivacy */; };
-		FA7F7D5E2F686E6C006E7E3C /* Moro-Eastern-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7D3A2F686E6C006E7E3C /* Moro-Eastern-Info.plist */; };
+		FAB896632F716FA900918A75 /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8965E2F716FA900918A75 /* MainRootView.swift */; };
+		FAB896642F716FA900918A75 /* AddDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8964D2F716FA900918A75 /* AddDishView.swift */; };
+		FAB896652F716FA900918A75 /* MarketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896562F716FA900918A75 /* MarketListView.swift */; };
+		FAB896662F716FA900918A75 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896362F716FA900918A75 /* TransparentBlurView.swift */; };
+		FAB896672F716FA900918A75 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8963F2F716FA900918A75 /* Ingredient.swift */; };
+		FAB896682F716FA900918A75 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8963D2F716FA900918A75 /* Dish.swift */; };
+		FAB896692F716FA900918A75 /* MarketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896552F716FA900918A75 /* MarketDetailView.swift */; };
+		FAB8966A2F716FA900918A75 /* SizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896352F716FA900918A75 /* SizeExtension.swift */; };
+		FAB8966B2F716FA900918A75 /* CameraImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896492F716FA900918A75 /* CameraImagePicker.swift */; };
+		FAB8966C2F716FA900918A75 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8963C2F716FA900918A75 /* AppTab.swift */; };
+		FAB8966D2F716FA900918A75 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896372F716FA900918A75 /* ViewExtension.swift */; };
+		FAB8966E2F716FA900918A75 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896332F716FA900918A75 /* BackgroundModifier.swift */; };
+		FAB8966F2F716FA900918A75 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896402F716FA900918A75 /* Market.swift */; };
+		FAB896702F716FA900918A75 /* DishStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8963E2F716FA900918A75 /* DishStore.swift */; };
+		FAB896712F716FA900918A75 /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8964F2F716FA900918A75 /* DishView.swift */; };
+		FAB896722F716FA900918A75 /* MarketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896522F716FA900918A75 /* MarketCardView.swift */; };
+		FAB896732F716FA900918A75 /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8964E2F716FA900918A75 /* DishDetailView.swift */; };
+		FAB896742F716FA900918A75 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896422F716FA900918A75 /* Purchase.swift */; };
+		FAB896752F716FA900918A75 /* MeditationAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896582F716FA900918A75 /* MeditationAudio.swift */; };
+		FAB896762F716FA900918A75 /* MarketStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896412F716FA900918A75 /* MarketStore.swift */; };
+		FAB896772F716FA900918A75 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896472F716FA900918A75 /* BottomBarView.swift */; };
+		FAB896782F716FA900918A75 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896342F716FA900918A75 /* FontExtension.swift */; };
+		FAB896792F716FA900918A75 /* DishCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8964B2F716FA900918A75 /* DishCardView.swift */; };
+		FAB8967A2F716FA900918A75 /* AddMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896542F716FA900918A75 /* AddMarketView.swift */; };
+		FAB8967B2F716FA900918A75 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8963B2F716FA900918A75 /* AppState.swift */; };
+		FAB8967C2F716FA900918A75 /* DropdownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896512F716FA900918A75 /* DropdownPickerView.swift */; };
+		FAB8967D2F716FA900918A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8965D2F716FA900918A75 /* ContentView.swift */; };
+		FAB8967E2F716FA900918A75 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB896592F716FA900918A75 /* TimerView.swift */; };
+		FAB8967F2F716FA900918A75 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB896392F716FA900918A75 /* SF-Pro-Display-Semibold.otf */; };
+		FAB896802F716FA900918A75 /* desertMP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB896452F716FA900918A75 /* desertMP.mp3 */; };
+		FAB896812F716FA900918A75 /* Moro-Eastern-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB896602F716FA900918A75 /* Moro-Eastern-Info.plist */; };
+		FAB896822F716FA900918A75 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FAB896622F716FA900918A75 /* PrivacyInfo.xcprivacy */; };
+		FAB896832F716FA900918A75 /* camelMP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB896442F716FA900918A75 /* camelMP.mp3 */; };
+		FAB896842F716FA900918A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8965C2F716FA900918A75 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,47 +62,52 @@
 		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		FA7F7D0D2F686E6C006E7E3C /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
-		FA7F7D0E2F686E6C006E7E3C /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
-		FA7F7D0F2F686E6C006E7E3C /* SizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeExtension.swift; sourceTree = "<group>"; };
-		FA7F7D102F686E6C006E7E3C /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
-		FA7F7D112F686E6C006E7E3C /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		FA7F7D132F686E6C006E7E3C /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
-		FA7F7D152F686E6C006E7E3C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		FA7F7D162F686E6C006E7E3C /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
-		FA7F7D172F686E6C006E7E3C /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
-		FA7F7D182F686E6C006E7E3C /* DishStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishStore.swift; sourceTree = "<group>"; };
-		FA7F7D192F686E6C006E7E3C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		FA7F7D1A2F686E6C006E7E3C /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
-		FA7F7D1B2F686E6C006E7E3C /* MarketStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketStore.swift; sourceTree = "<group>"; };
-		FA7F7D1C2F686E6C006E7E3C /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
-		FA7F7D1E2F686E6C006E7E3C /* camelMP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camelMP.mp3; sourceTree = "<group>"; };
-		FA7F7D1F2F686E6C006E7E3C /* desertMP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = desertMP.mp3; sourceTree = "<group>"; };
-		FA7F7D212F686E6C006E7E3C /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
-		FA7F7D232F686E6C006E7E3C /* CameraImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImagePicker.swift; sourceTree = "<group>"; };
-		FA7F7D252F686E6C006E7E3C /* DishCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCardView.swift; sourceTree = "<group>"; };
-		FA7F7D272F686E6C006E7E3C /* AddDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDishView.swift; sourceTree = "<group>"; };
-		FA7F7D282F686E6C006E7E3C /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
-		FA7F7D292F686E6C006E7E3C /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
-		FA7F7D2B2F686E6C006E7E3C /* DropdownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPickerView.swift; sourceTree = "<group>"; };
-		FA7F7D2C2F686E6C006E7E3C /* MarketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCardView.swift; sourceTree = "<group>"; };
-		FA7F7D2E2F686E6C006E7E3C /* AddMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMarketView.swift; sourceTree = "<group>"; };
-		FA7F7D2F2F686E6C006E7E3C /* MarketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailView.swift; sourceTree = "<group>"; };
-		FA7F7D302F686E6C006E7E3C /* MarketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListView.swift; sourceTree = "<group>"; };
-		FA7F7D322F686E6C006E7E3C /* MeditationAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationAudio.swift; sourceTree = "<group>"; };
-		FA7F7D332F686E6C006E7E3C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		FA7F7D362F686E6C006E7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA7F7D372F686E6C006E7E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA7F7D382F686E6C006E7E3C /* MainRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
-		FA7F7D392F686E6C006E7E3C /* Moro_Eastern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moro_Eastern.entitlements; sourceTree = "<group>"; };
-		FA7F7D3A2F686E6C006E7E3C /* Moro-Eastern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moro-Eastern-Info.plist"; sourceTree = "<group>"; };
-		FA7F7D3C2F686E6C006E7E3C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		FAB896332F716FA900918A75 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		FAB896342F716FA900918A75 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		FAB896352F716FA900918A75 /* SizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeExtension.swift; sourceTree = "<group>"; };
+		FAB896362F716FA900918A75 /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		FAB896372F716FA900918A75 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		FAB896392F716FA900918A75 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		FAB8963B2F716FA900918A75 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FAB8963C2F716FA900918A75 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		FAB8963D2F716FA900918A75 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		FAB8963E2F716FA900918A75 /* DishStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishStore.swift; sourceTree = "<group>"; };
+		FAB8963F2F716FA900918A75 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		FAB896402F716FA900918A75 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		FAB896412F716FA900918A75 /* MarketStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketStore.swift; sourceTree = "<group>"; };
+		FAB896422F716FA900918A75 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		FAB896442F716FA900918A75 /* camelMP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camelMP.mp3; sourceTree = "<group>"; };
+		FAB896452F716FA900918A75 /* desertMP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = desertMP.mp3; sourceTree = "<group>"; };
+		FAB896472F716FA900918A75 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		FAB896492F716FA900918A75 /* CameraImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImagePicker.swift; sourceTree = "<group>"; };
+		FAB8964B2F716FA900918A75 /* DishCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCardView.swift; sourceTree = "<group>"; };
+		FAB8964D2F716FA900918A75 /* AddDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDishView.swift; sourceTree = "<group>"; };
+		FAB8964E2F716FA900918A75 /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
+		FAB8964F2F716FA900918A75 /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
+		FAB896512F716FA900918A75 /* DropdownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPickerView.swift; sourceTree = "<group>"; };
+		FAB896522F716FA900918A75 /* MarketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCardView.swift; sourceTree = "<group>"; };
+		FAB896542F716FA900918A75 /* AddMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMarketView.swift; sourceTree = "<group>"; };
+		FAB896552F716FA900918A75 /* MarketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailView.swift; sourceTree = "<group>"; };
+		FAB896562F716FA900918A75 /* MarketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListView.swift; sourceTree = "<group>"; };
+		FAB896582F716FA900918A75 /* MeditationAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationAudio.swift; sourceTree = "<group>"; };
+		FAB896592F716FA900918A75 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		FAB8965C2F716FA900918A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB8965D2F716FA900918A75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB8965E2F716FA900918A75 /* MainRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
+		FAB8965F2F716FA900918A75 /* Moro_Eastern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moro_Eastern.entitlements; sourceTree = "<group>"; };
+		FAB896602F716FA900918A75 /* Moro-Eastern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moro-Eastern-Info.plist"; sourceTree = "<group>"; };
+		FAB896622F716FA900918A75 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CE7115362E6F0AB000BFCB5A /* AppTemplate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppTemplate;
+			sourceTree = "<group>";
+		};
+		CE9DBAB62E9014FA0065A837 /* AppsFlyer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppsFlyer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -111,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +127,9 @@
 		CE71152B2E6F0AB000BFCB5A = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D3B2F686E6C006E7E3C /* Moro Eastern */,
-				FA7F7D3C2F686E6C006E7E3C /* PrivacyInfo.xcprivacy */,
+				FAB896612F716FA900918A75 /* Moro Eastern */,
+				FAB896622F716FA900918A75 /* PrivacyInfo.xcprivacy */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
 				CE7115352E6F0AB000BFCB5A /* Products */,
@@ -145,139 +153,139 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA7F7D122F686E6C006E7E3C /* Extensions */ = {
+		FAB896382F716FA900918A75 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D0D2F686E6C006E7E3C /* BackgroundModifier.swift */,
-				FA7F7D0E2F686E6C006E7E3C /* FontExtension.swift */,
-				FA7F7D0F2F686E6C006E7E3C /* SizeExtension.swift */,
-				FA7F7D102F686E6C006E7E3C /* TransparentBlurView.swift */,
-				FA7F7D112F686E6C006E7E3C /* ViewExtension.swift */,
+				FAB896332F716FA900918A75 /* BackgroundModifier.swift */,
+				FAB896342F716FA900918A75 /* FontExtension.swift */,
+				FAB896352F716FA900918A75 /* SizeExtension.swift */,
+				FAB896362F716FA900918A75 /* TransparentBlurView.swift */,
+				FAB896372F716FA900918A75 /* ViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		FA7F7D142F686E6C006E7E3C /* Fonts */ = {
+		FAB8963A2F716FA900918A75 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D132F686E6C006E7E3C /* SF-Pro-Display-Semibold.otf */,
+				FAB896392F716FA900918A75 /* SF-Pro-Display-Semibold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		FA7F7D1D2F686E6C006E7E3C /* Models */ = {
+		FAB896432F716FA900918A75 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D152F686E6C006E7E3C /* AppState.swift */,
-				FA7F7D162F686E6C006E7E3C /* AppTab.swift */,
-				FA7F7D172F686E6C006E7E3C /* Dish.swift */,
-				FA7F7D182F686E6C006E7E3C /* DishStore.swift */,
-				FA7F7D192F686E6C006E7E3C /* Ingredient.swift */,
-				FA7F7D1A2F686E6C006E7E3C /* Market.swift */,
-				FA7F7D1B2F686E6C006E7E3C /* MarketStore.swift */,
-				FA7F7D1C2F686E6C006E7E3C /* Purchase.swift */,
+				FAB8963B2F716FA900918A75 /* AppState.swift */,
+				FAB8963C2F716FA900918A75 /* AppTab.swift */,
+				FAB8963D2F716FA900918A75 /* Dish.swift */,
+				FAB8963E2F716FA900918A75 /* DishStore.swift */,
+				FAB8963F2F716FA900918A75 /* Ingredient.swift */,
+				FAB896402F716FA900918A75 /* Market.swift */,
+				FAB896412F716FA900918A75 /* MarketStore.swift */,
+				FAB896422F716FA900918A75 /* Purchase.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FA7F7D202F686E6C006E7E3C /* Sound */ = {
+		FAB896462F716FA900918A75 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D1E2F686E6C006E7E3C /* camelMP.mp3 */,
-				FA7F7D1F2F686E6C006E7E3C /* desertMP.mp3 */,
+				FAB896442F716FA900918A75 /* camelMP.mp3 */,
+				FAB896452F716FA900918A75 /* desertMP.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
 		};
-		FA7F7D222F686E6C006E7E3C /* BottomBar */ = {
+		FAB896482F716FA900918A75 /* BottomBar */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D212F686E6C006E7E3C /* BottomBarView.swift */,
+				FAB896472F716FA900918A75 /* BottomBarView.swift */,
 			);
 			path = BottomBar;
 			sourceTree = "<group>";
 		};
-		FA7F7D242F686E6C006E7E3C /* Components */ = {
+		FAB8964A2F716FA900918A75 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D232F686E6C006E7E3C /* CameraImagePicker.swift */,
+				FAB896492F716FA900918A75 /* CameraImagePicker.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FA7F7D262F686E6C006E7E3C /* Components */ = {
+		FAB8964C2F716FA900918A75 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D252F686E6C006E7E3C /* DishCardView.swift */,
+				FAB8964B2F716FA900918A75 /* DishCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FA7F7D2A2F686E6C006E7E3C /* Dish */ = {
+		FAB896502F716FA900918A75 /* Dish */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D262F686E6C006E7E3C /* Components */,
-				FA7F7D272F686E6C006E7E3C /* AddDishView.swift */,
-				FA7F7D282F686E6C006E7E3C /* DishDetailView.swift */,
-				FA7F7D292F686E6C006E7E3C /* DishView.swift */,
+				FAB8964C2F716FA900918A75 /* Components */,
+				FAB8964D2F716FA900918A75 /* AddDishView.swift */,
+				FAB8964E2F716FA900918A75 /* DishDetailView.swift */,
+				FAB8964F2F716FA900918A75 /* DishView.swift */,
 			);
 			path = Dish;
 			sourceTree = "<group>";
 		};
-		FA7F7D2D2F686E6C006E7E3C /* Components */ = {
+		FAB896532F716FA900918A75 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D2B2F686E6C006E7E3C /* DropdownPickerView.swift */,
-				FA7F7D2C2F686E6C006E7E3C /* MarketCardView.swift */,
+				FAB896512F716FA900918A75 /* DropdownPickerView.swift */,
+				FAB896522F716FA900918A75 /* MarketCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FA7F7D312F686E6C006E7E3C /* Market */ = {
+		FAB896572F716FA900918A75 /* Market */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D2D2F686E6C006E7E3C /* Components */,
-				FA7F7D2E2F686E6C006E7E3C /* AddMarketView.swift */,
-				FA7F7D2F2F686E6C006E7E3C /* MarketDetailView.swift */,
-				FA7F7D302F686E6C006E7E3C /* MarketListView.swift */,
+				FAB896532F716FA900918A75 /* Components */,
+				FAB896542F716FA900918A75 /* AddMarketView.swift */,
+				FAB896552F716FA900918A75 /* MarketDetailView.swift */,
+				FAB896562F716FA900918A75 /* MarketListView.swift */,
 			);
 			path = Market;
 			sourceTree = "<group>";
 		};
-		FA7F7D342F686E6C006E7E3C /* Timer */ = {
+		FAB8965A2F716FA900918A75 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D322F686E6C006E7E3C /* MeditationAudio.swift */,
-				FA7F7D332F686E6C006E7E3C /* TimerView.swift */,
+				FAB896582F716FA900918A75 /* MeditationAudio.swift */,
+				FAB896592F716FA900918A75 /* TimerView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
 		};
-		FA7F7D352F686E6C006E7E3C /* Views */ = {
+		FAB8965B2F716FA900918A75 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D222F686E6C006E7E3C /* BottomBar */,
-				FA7F7D242F686E6C006E7E3C /* Components */,
-				FA7F7D2A2F686E6C006E7E3C /* Dish */,
-				FA7F7D312F686E6C006E7E3C /* Market */,
-				FA7F7D342F686E6C006E7E3C /* Timer */,
+				FAB896482F716FA900918A75 /* BottomBar */,
+				FAB8964A2F716FA900918A75 /* Components */,
+				FAB896502F716FA900918A75 /* Dish */,
+				FAB896572F716FA900918A75 /* Market */,
+				FAB8965A2F716FA900918A75 /* Timer */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FA7F7D3B2F686E6C006E7E3C /* Moro Eastern */ = {
+		FAB896612F716FA900918A75 /* Moro Eastern */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F7D122F686E6C006E7E3C /* Extensions */,
-				FA7F7D142F686E6C006E7E3C /* Fonts */,
-				FA7F7D1D2F686E6C006E7E3C /* Models */,
-				FA7F7D202F686E6C006E7E3C /* Sound */,
-				FA7F7D352F686E6C006E7E3C /* Views */,
-				FA7F7D362F686E6C006E7E3C /* Assets.xcassets */,
-				FA7F7D372F686E6C006E7E3C /* ContentView.swift */,
-				FA7F7D382F686E6C006E7E3C /* MainRootView.swift */,
-				FA7F7D392F686E6C006E7E3C /* Moro_Eastern.entitlements */,
-				FA7F7D3A2F686E6C006E7E3C /* Moro-Eastern-Info.plist */,
+				FAB896382F716FA900918A75 /* Extensions */,
+				FAB8963A2F716FA900918A75 /* Fonts */,
+				FAB896432F716FA900918A75 /* Models */,
+				FAB896462F716FA900918A75 /* Sound */,
+				FAB8965B2F716FA900918A75 /* Views */,
+				FAB8965C2F716FA900918A75 /* Assets.xcassets */,
+				FAB8965D2F716FA900918A75 /* ContentView.swift */,
+				FAB8965E2F716FA900918A75 /* MainRootView.swift */,
+				FAB8965F2F716FA900918A75 /* Moro_Eastern.entitlements */,
+				FAB896602F716FA900918A75 /* Moro-Eastern-Info.plist */,
 			);
 			path = "Moro Eastern";
 			sourceTree = "<group>";
@@ -300,9 +308,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 			);
 			name = AppTemplate;
 			packageProductDependencies = (
+				CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */,
 			);
 			productName = AppTemplate;
 			productReference = CE7115342E6F0AB000BFCB5A /* AppTemplate.app */;
@@ -333,6 +343,7 @@
 			mainGroup = CE71152B2E6F0AB000BFCB5A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE7115352E6F0AB000BFCB5A /* Products */;
@@ -349,12 +360,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7F7D592F686E6C006E7E3C /* SF-Pro-Display-Semibold.otf in Resources */,
-				FA7F7D5A2F686E6C006E7E3C /* Assets.xcassets in Resources */,
-				FA7F7D5B2F686E6C006E7E3C /* desertMP.mp3 in Resources */,
-				FA7F7D5C2F686E6C006E7E3C /* camelMP.mp3 in Resources */,
-				FA7F7D5D2F686E6C006E7E3C /* PrivacyInfo.xcprivacy in Resources */,
-				FA7F7D5E2F686E6C006E7E3C /* Moro-Eastern-Info.plist in Resources */,
+				FAB8967F2F716FA900918A75 /* SF-Pro-Display-Semibold.otf in Resources */,
+				FAB896802F716FA900918A75 /* desertMP.mp3 in Resources */,
+				FAB896812F716FA900918A75 /* Moro-Eastern-Info.plist in Resources */,
+				FAB896822F716FA900918A75 /* PrivacyInfo.xcprivacy in Resources */,
+				FAB896832F716FA900918A75 /* camelMP.mp3 in Resources */,
+				FAB896842F716FA900918A75 /* Assets.xcassets in Resources */,
 				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,34 +377,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7F7D3D2F686E6C006E7E3C /* Purchase.swift in Sources */,
-				FA7F7D3E2F686E6C006E7E3C /* AddMarketView.swift in Sources */,
-				FA7F7D3F2F686E6C006E7E3C /* AppTab.swift in Sources */,
-				FA7F7D402F686E6C006E7E3C /* AddDishView.swift in Sources */,
-				FA7F7D412F686E6C006E7E3C /* MarketListView.swift in Sources */,
-				FA7F7D422F686E6C006E7E3C /* AppState.swift in Sources */,
-				FA7F7D432F686E6C006E7E3C /* DishView.swift in Sources */,
-				FA7F7D442F686E6C006E7E3C /* DishDetailView.swift in Sources */,
-				FA7F7D452F686E6C006E7E3C /* BottomBarView.swift in Sources */,
-				FA7F7D462F686E6C006E7E3C /* TransparentBlurView.swift in Sources */,
-				FA7F7D472F686E6C006E7E3C /* DropdownPickerView.swift in Sources */,
-				FA7F7D482F686E6C006E7E3C /* MainRootView.swift in Sources */,
-				FA7F7D492F686E6C006E7E3C /* Dish.swift in Sources */,
-				FA7F7D4A2F686E6C006E7E3C /* Market.swift in Sources */,
-				FA7F7D4B2F686E6C006E7E3C /* DishCardView.swift in Sources */,
-				FA7F7D4C2F686E6C006E7E3C /* FontExtension.swift in Sources */,
-				FA7F7D4D2F686E6C006E7E3C /* ViewExtension.swift in Sources */,
-				FA7F7D4E2F686E6C006E7E3C /* ContentView.swift in Sources */,
-				FA7F7D4F2F686E6C006E7E3C /* BackgroundModifier.swift in Sources */,
-				FA7F7D502F686E6C006E7E3C /* CameraImagePicker.swift in Sources */,
-				FA7F7D512F686E6C006E7E3C /* DishStore.swift in Sources */,
-				FA7F7D522F686E6C006E7E3C /* MarketDetailView.swift in Sources */,
-				FA7F7D532F686E6C006E7E3C /* SizeExtension.swift in Sources */,
-				FA7F7D542F686E6C006E7E3C /* MarketCardView.swift in Sources */,
-				FA7F7D552F686E6C006E7E3C /* TimerView.swift in Sources */,
-				FA7F7D562F686E6C006E7E3C /* Ingredient.swift in Sources */,
-				FA7F7D572F686E6C006E7E3C /* MarketStore.swift in Sources */,
-				FA7F7D582F686E6C006E7E3C /* MeditationAudio.swift in Sources */,
+				FAB896632F716FA900918A75 /* MainRootView.swift in Sources */,
+				FAB896642F716FA900918A75 /* AddDishView.swift in Sources */,
+				FAB896652F716FA900918A75 /* MarketListView.swift in Sources */,
+				FAB896662F716FA900918A75 /* TransparentBlurView.swift in Sources */,
+				FAB896672F716FA900918A75 /* Ingredient.swift in Sources */,
+				FAB896682F716FA900918A75 /* Dish.swift in Sources */,
+				FAB896692F716FA900918A75 /* MarketDetailView.swift in Sources */,
+				FAB8966A2F716FA900918A75 /* SizeExtension.swift in Sources */,
+				FAB8966B2F716FA900918A75 /* CameraImagePicker.swift in Sources */,
+				FAB8966C2F716FA900918A75 /* AppTab.swift in Sources */,
+				FAB8966D2F716FA900918A75 /* ViewExtension.swift in Sources */,
+				FAB8966E2F716FA900918A75 /* BackgroundModifier.swift in Sources */,
+				FAB8966F2F716FA900918A75 /* Market.swift in Sources */,
+				FAB896702F716FA900918A75 /* DishStore.swift in Sources */,
+				FAB896712F716FA900918A75 /* DishView.swift in Sources */,
+				FAB896722F716FA900918A75 /* MarketCardView.swift in Sources */,
+				FAB896732F716FA900918A75 /* DishDetailView.swift in Sources */,
+				FAB896742F716FA900918A75 /* Purchase.swift in Sources */,
+				FAB896752F716FA900918A75 /* MeditationAudio.swift in Sources */,
+				FAB896762F716FA900918A75 /* MarketStore.swift in Sources */,
+				FAB896772F716FA900918A75 /* BottomBarView.swift in Sources */,
+				FAB896782F716FA900918A75 /* FontExtension.swift in Sources */,
+				FAB896792F716FA900918A75 /* DishCardView.swift in Sources */,
+				FAB8967A2F716FA900918A75 /* AddMarketView.swift in Sources */,
+				FAB8967B2F716FA900918A75 /* AppState.swift in Sources */,
+				FAB8967C2F716FA900918A75 /* DropdownPickerView.swift in Sources */,
+				FAB8967D2F716FA900918A75 /* ContentView.swift in Sources */,
+				FAB8967E2F716FA900918A75 /* TimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +556,8 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Moro Eastern Sands";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos to your diary.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to measure app installs and improve our services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -556,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.easternsands.moro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -582,7 +594,8 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Moro Eastern Sands";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos to your diary.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to measure app installs and improve our services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -593,7 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.easternsands.moro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -628,6 +641,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE71152C2E6F0AB000BFCB5A /* Project object */;
 }
