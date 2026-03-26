@@ -557,7 +557,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Moro Eastern Sands";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos to your diary.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to measure app installs and improve our services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -595,7 +594,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Moro Eastern Sands";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos to your diary.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow photo library access to pick images for your diary.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to measure app installs and improve our services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;

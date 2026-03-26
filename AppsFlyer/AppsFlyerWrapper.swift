@@ -1,7 +1,6 @@
 import UIKit
 import SwiftUI
 import AppsFlyerLib
-import AppTrackingTransparency
 
 extension AppDelegate: AppsFlyerLibDelegate {
     

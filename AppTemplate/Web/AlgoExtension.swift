@@ -50,25 +50,16 @@ extension AppDelegate : UNUserNotificationCenterDelegate
         return result
     }
     
-    func initApp()
-    {
+    func initApp() {
         AppDelegate.afDataRecieved = false
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1)
-        {
-            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
-                print("Tracking authorization status: \(status)")
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                    Task {
-                        self.initAppsFlyer()
-                        try? await Task.sleep(for: .seconds(5))
-                        if !AppDelegate.afDataRecieved
-                        {
-                            self.applyDecision()
-                        }
-                    }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            Task {
+                self.initAppsFlyer()
+                try? await Task.sleep(for: .seconds(5))
+                if !AppDelegate.afDataRecieved {
+                    self.applyDecision()
                 }
-            })
+            }
         }
     }
     
