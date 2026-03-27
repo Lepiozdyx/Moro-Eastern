@@ -1,7 +1,6 @@
 
 import Foundation
 import UIKit
-import AppTrackingTransparency
 
 
 extension AppDelegate : UNUserNotificationCenterDelegate
